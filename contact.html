@@ -39,20 +39,34 @@
                 <p>Monday-Sunday : All through
             </div>
             <div class="col-md-8">
-                <p>We value your feedback. Leave us a message:</p>
-                <form action="https://formspree.io/mknqyzyj" method="POST" id="messageForm">
-                    <div class="form-group textarea">
-                        <textarea type="text" name="message" id="message" class="form-control" rows="12" placeholder="Your message here..." required></textarea>
-                        <button type="submit" class="btn" onclick="clearTextarea()">SEND</button>
+                <h5>Get In touch</h5>
+                <form action="https://formspree.io/moqndkyj" method="POST">
+                    <div class="form-row">
+                        <div class="form-group col-md-2"></div>
+                        <div class="form-group col-md-4">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" cols="1" rows="12" placeholder="Name..."><div id="error"></div>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="email">E-mail</label>
+                            <input type="email" class="form-control" id="email" cols="1" rows="12" placeholder="E-mail.."><div id="error1"></div>
+                        </div>
+                        <div class="col-md-2"></div>
                     </div>
+                        <div class="form-group text-area">
+                            <label for="message"></label>
+                            <textarea name="message" class="form-control" id="message" cols="10" rows="10" placeholder="Your message here..."></textarea><div id="error2"></div>
+                        </div>
+                        <button type="submit" id="send">SEND</button>
                 </form>
+                <div class="socials">
+                    <span><i class="fab fa-facebook icon_facebook" style="font-size:30px" ></i></span>&nbsp;&nbsp;
+                    <span><i class="fab fa-twitter" style="font-size:30px"></i></span>&nbsp;&nbsp;
+                    <span><i class="fab fa-instagram icon_instagram" style="font-size:30px"></i></span>
+                </div>
             </div>
-        </div>
-        <div class="socials">
-            <span><i class="fab fa-facebook icon_facebook" style="font-size:30px" ></i></span>&nbsp;&nbsp;
-            <span><i class="fab fa-twitter" style="font-size:30px"></i></span>&nbsp;&nbsp;
-            <span><i class="fab fa-instagram icon_instagram" style="font-size:30px"></i></span>
         </div>
         <br>
     </div>
 </body>
+</html>

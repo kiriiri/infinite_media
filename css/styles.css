@@ -21,14 +21,14 @@ body, html {
 .intro1 {
   font-size:50px ;
   font-weight:bold;
-  font-family: 'Dancing Script', cursive;;
+  font-family: 'Dancing Script', cursive;
   color:white;
 }
 
 .intro2 {
   font-size: 15px;
   font-weight:bold;
-  font-family: 'Dancing Script', cursive;;
+  font-family: 'Dancing Script', cursive;
   color:white;
 }
 
@@ -48,7 +48,7 @@ body, html {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-family: 'Dancing Script', cursive;;
+  font-family: 'Dancing Script', cursive;
 }
 
 .navbar a:hover {
@@ -74,7 +74,7 @@ img {
 
 h1 {
   color:black;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Dancing Script', cursive;
   font-size: 80px;
   letter-spacing: 2px;
 }
@@ -95,6 +95,7 @@ h1 {
 
 /* PORTFOLIOS */
 /* Style the tab */
+
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -133,6 +134,7 @@ h1 {
   font-size: 40px;
   font-weight: bold;
 }
+
 /* PORTFOLIOS */
 
 /*CONTACT US*/
@@ -140,9 +142,11 @@ h1 {
   width: 100%;
   height: auto;
   text-align: center;
-  color: white;
-  background-image: url("../images/lens2.jpg");
+  color:white;
+  background-image: url("../images/huge.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Dancing Script', cursive;
 }
 #contactus img{
   object-fit: cover;
@@ -161,10 +165,29 @@ h3{
   padding-bottom: 1%;
 }
 #message{
-  color: white;
+  color:white;
   background: transparent;
+  font-size:20px;
 }
 .contactcontent{
   padding: 4%;
+}
+p {
+  font-size:20px;
+  font-weight: bold;
+}
+.form-control {
+  background: transparent;
+}
+::placeholder {
+  color:white;
+}
+h5 {
+  font-size: 30px;
+}
+.socials{
+  padding-top: 3%;
+  text-align: center;
+  padding-bottom: 3%;
 }
 /*CONTACT US*/
