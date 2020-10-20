@@ -90,19 +90,17 @@ body, html {
 /* LANDING PAGE */
 
 /* BIO */
-h1 {
-  color:white;
-  font-family: 'Dancing Script', cursive;
-  font-size: 80px;
-}
 .content {
-  font-size: 50px;
+  font-size: 80px;
   color: white;
   font-family:'Josefin Sans', sans-serif;
 }
 .little{
   font-family: 'Dancing Script', cursive;
-  font-size:8vw;
+  font-size:80px;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
 }
 /*BIO*/
 
@@ -153,6 +151,12 @@ h1 {
 /* PORTFOLIOS */
 
 /* PACKAGES */
+h1{
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+  letter-spacing: 2px;
+}
 .about-section{
   padding:50px;
   text-align:center;
