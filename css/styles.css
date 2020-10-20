@@ -98,11 +98,6 @@ h1 {
 }
 .content {
   font-size: 50px;
-  text-align: justify;
-  padding-left: 40%;
-  word-spacing: 2px;
-  padding-right: 5%;
-  padding-bottom: 8%;
   color: white;
   font-family:'Josefin Sans', sans-serif;
 }
