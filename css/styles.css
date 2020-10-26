@@ -102,6 +102,11 @@ body, html {
   text-align: center;
   letter-spacing: 2px;
 }
+.responsive{
+  max-width:30%;
+  height:70%;
+  width:30%;
+}
 /*BIO*/
 
 /* PORTFOLIOS */
