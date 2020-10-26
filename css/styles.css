@@ -102,9 +102,13 @@ body, html {
   text-align: center;
   letter-spacing: 2px;
 }
-.responsive{
+.bio{
+  object-fit:cover;
+  position: relative;
+}
+.responsive bio{
   max-width:30%;
-  height:70%;
+  height:auto;
   width:30%;
 }
 /*BIO*/
